@@ -32,7 +32,7 @@ ob_start();
                         <input type="lastName" id="lastName" name="secondName" placeholder="Enter your last name"  required>
                     </div>
 
-                    <div class="singleField">
+                    <!-- <div class="singleField">
                         <label for="nationality">Nationality</label>
                         <input type="nationality" id="nationality" name="nationality" placeholder="Enter your nationality"  required>
                     </div>
@@ -40,7 +40,7 @@ ob_start();
                     <div class="singleField">
                         <label for="dob">Date of birth</label>
                         <input type="date" id="dob" name="dob"  required>
-                    </div>
+                    </div> -->
 
                     <div class="singleField">
                         <label for="email">Email</label>
@@ -85,8 +85,8 @@ if(isset($_POST['submit'])){
   $secondName = $_POST['secondName'];
   $email = $_POST['email'];
   $username = $_POST['username'];
-  $nationality = $_POST['nationality'];
-  $dob = $_POST['dob'];
+//   $nationality = $_POST['nationality'];
+//   $dob = $_POST['dob'];
   $password = $_POST['password'];
 
 
@@ -94,9 +94,9 @@ if(isset($_POST['submit'])){
   firstname = '$firstName',
   secondname = '$secondName',
   email = '$email',
-  nationality = '$nationality',
+--   nationality = '$nationality',
   username = '$username',
-  dob = '$dob',
+--   dob = '$dob',
   password = '$password'
   ";
 
