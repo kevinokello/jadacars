@@ -62,17 +62,8 @@ ob_start();
                     <div>
 
                         
-                        
-                        <div class="singleField">
-                            <label for="engine">Engine Type</label>
-                            <input type="text" name="engine" id="engine" placeholder="e.g: 16V DOHC" required>
-                        </div>
-
+                    
                  
-                        <div class="singleField">
-                            <label for="finalDrive">Final Drive</label>
-                            <input type="text" name="finalDrive" id="finalDrive" placeholder="e.g: Front Wheel Drive" required>
-                        </div>
                         
                         <div class="singleField">
                             <label for="grade">Model Grade</label>
@@ -117,10 +108,7 @@ ob_start();
                             <input type="date" name="builtDate" id="builtDate" placeholder="e.g: 2019" required>
                         </div>
     
-                        <div class="singleField">
-                            <label for="seats">Seats(s)</label>
-                            <input type="number" name="seats" id="seats" placeholder=".g: 3" required>
-                        </div>
+                    
 
                         <div class="singleField">
                             <label for="year">Model Year</label>
@@ -132,10 +120,7 @@ ob_start();
 
                     <div>
 
-                        <div class="singleField">
-                            <label for="spec">Spec Region</label>
-                            <input type="text" name="spec" id="spec" placeholder="e.g: GCC" required>
-                        </div>
+                     
                     
                         <div class="singleField">
                             <label for="insurance">Accident Insurance</label>
@@ -197,28 +182,9 @@ ob_start();
                                     <input type="file" name="Exterior2" id="carImage" >
                                 </div>
                             </div>
+                          
                             <div>
-                                <div class="singleField">
-                                    <label for="carImage">Car Image 3 (Interior)</label>
-                                    <input type="file" name="Interior3" id="carImage" >
-                                </div>
-
-                                <div class="singleField">
-                                    <label for="carImage">Car Image 3 (Exterior)</label>
-                                    <input type="file" name="Exterior3" id="carImage" >
-                                </div>
-
-                            </div>
-                            <div>
-                                <div class="singleField">
-                                    <label for="carImage">Car Image 4 (Interior)</label>
-                                    <input type="file" name="Interior4" id="carImage" >
-                                </div>
-
-                                <div class="singleField">
-                                    <label for="carImage">Car Image 4 (Exterior)</label>
-                                    <input type="file" name="Exterior4" id="carImage" >
-                                </div>
+                               
 
                                 <a href="#galleryForm">
                                     <button  class="btn flex bg" style="width: 100%;" name='submit'>
@@ -249,14 +215,10 @@ if(isset($_POST['submit'])){
     $carPrice = $_POST['carPrice'];
     $carLocation = $_POST['carLocation'];
   
-    $engine = $_POST['engine'];
   
     $builtDate = $_POST['builtDate'];
-    $seats = $_POST['seats'];
     $year = $_POST['year'];
-    $finalDrive = $_POST['finalDrive'];
     $grade = $_POST['grade'];
-    $spec = $_POST['spec'];
     $insurance = $_POST['insurance'];
     $staffID = $_POST['staffID'];
     $status = $_POST['status'];
@@ -326,46 +288,8 @@ if(isset($_POST['submit'])){
 
 
     // Uploading Interior3 to the database =======================>
-     
-   if(isset($_FILES['Interior3']['name'])){
-    //To upload the image we need the image name, source and destination.
-    $InteriorImage3 = $_FILES['Interior3']['name'];
-    // Source ================>
-    $imageSource = $_FILES['Interior3']['tmp_name'];
-    // Destination ================>
-    $imageDestination = "../Assets/dbImages".$InteriorImage3; 
-    // Finally upload the image ========>
-    $uploadImage = move_uploaded_file($imageSource, $imageDestination);
+ 
 
-    if($uploadImage == false){
-      $_SESSION['imgUpload']  = '<span class="fail">Failed to upload image!</span>';
-    }
-  }else{
-    
-    $InteriorImage3 ="";
-    }
-
-
-
-    // Uploading Interior4 to the database =======================>
-     
-   if(isset($_FILES['Interior4']['name'])){
-    //To upload the image we need the image name, source and destination.
-    $InteriorImage4 = $_FILES['Interior4']['name'];
-    // Source ================>
-    $imageSource = $_FILES['Interior4']['tmp_name'];
-    // Destination ================>
-    $imageDestination = "../Assets/dbImages".$InteriorImage4; 
-    // Finally upload the image ========>
-    $uploadImage = move_uploaded_file($imageSource, $imageDestination);
-
-    if($uploadImage == false){
-      $_SESSION['imgUpload']  = '<span class="fail">Failed to upload image!</span>';
-    }
-  }else{
-    
-    $InteriorImage4 ="";
-    }
 
 
 
@@ -413,73 +337,25 @@ if(isset($_POST['submit'])){
 
 
 
-    // Uploading Exterior3 to the database =======================>
-     
-   if(isset($_FILES['Exterior3']['name'])){
-    //To upload the image we need the image name, source and destination.
-    $ExteriorImage3 = $_FILES['Exterior3']['name'];
-    // Source ================>
-    $imageSource = $_FILES['Exterior3']['tmp_name'];
-    // Destination ================>
-    $imageDestination = "../Assets/dbImages".$ExteriorImage3; 
-    // Finally upload the image ========>
-    $uploadImage = move_uploaded_file($imageSource, $imageDestination);
-
-    if($uploadImage == false){
-      $_SESSION['imgUpload']  = '<span class="fail">Failed to upload image!</span>';
-    }
-  }else{
-    
-    $ExteriorImage3 ="";
-    }
-
-    // Uploading Exterior4 to the database =======================>
-     
-   if(isset($_FILES['Exterior4']['name'])){
-    //To upload the image we need the image name, source and destination.
-    $ExteriorImage4 = $_FILES['Exterior4']['name'];
-    // Source ================>
-    $imageSource = $_FILES['Exterior4']['tmp_name'];
-    // Destination ================>
-    $imageDestination = "../Assets/dbImages".$ExteriorImage4; 
-    // Finally upload the image ========>
-    $uploadImage = move_uploaded_file($imageSource, $imageDestination);
-
-    if($uploadImage == false){
-      $_SESSION['imgUpload']  = '<span class="fail">Failed to upload image!</span>';
-    }
-  }else{
-    
-    $ExteriorImage4 ="";
-    }
-
-
   $sql = "INSERT INTO cars SET
   carname = '$carName',
   location = '$carLocation',
   mainimage = '$image',
 
-  engine = '$engine',
  
 
   releasedate = '$builtDate',
-  seats = '$seats',
   modelyear = '$year',
-  finaldrive = '$finalDrive',
   modelgrade = '$grade',
-  specregion = '$spec',
   insurance = '$insurance',
   company = '$company',
   staffID = '$staffID',
   status = '$status',
   Interior1 = '$InteriorImage1',
   Interior2 = '$InteriorImage2',
-  Interior3 = '$InteriorImage3',
-  Interior4 = '$InteriorImage4',
+
   Exterior1  = '$ExteriorImage1',
-  Exterior2 = '$ExteriorImage2',
-  Exterior3 = '$ExteriorImage3',
-  Exterior4 = '$ExteriorImage4'
+  Exterior2 = '$ExteriorImage2'
   ";
 
   $result = mysqli_query($conn, $sql);

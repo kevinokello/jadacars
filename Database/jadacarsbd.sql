@@ -32,13 +32,9 @@ CREATE TABLE `cars` (
   `carname` varchar(100) NOT NULL,
   `price` int NOT NULL,
   `location` varchar(100) NOT NULL,
-  `engine` varchar(50) NOT NULL,
   `releasedate` date NOT NULL,
-  `seats` int NOT NULL,
   `modelyear` text NOT NULL,
-  `finaldrive` varchar(50) NOT NULL,
   `modelgrade` varchar(50) NOT NULL,
-  `specregion` varchar(50) NOT NULL,
   `insurance` int NOT NULL,
   `mainimage` varchar(255) NOT NULL,
   `status` varchar(20) NOT NULL,
@@ -46,12 +42,8 @@ CREATE TABLE `cars` (
   `staffID` varchar(11) NOT NULL,
   `Interior1` varchar(255) NOT NULL,
   `Interior2` varchar(255) NOT NULL,
-  `Interior3` varchar(255) NOT NULL,
-  `Interior4` varchar(255) NOT NULL,
   `Exterior1` varchar(255) NOT NULL,
-  `Exterior2` varchar(255) NOT NULL,
-  `Exterior3` varchar(255) NOT NULL,
-  `Exterior4` varchar(255) NOT NULL
+  `Exterior2` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
