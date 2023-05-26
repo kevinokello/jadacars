@@ -39,13 +39,16 @@ CREATE TABLE `cars` (
   `mainimage` varchar(255) NOT NULL,
   `status` varchar(20) NOT NULL,
   `company` varchar(100) NOT NULL,
-  `staffID` varchar(11) FOREIGN KEY REFERENCES staff(id),
-  -- `staffID` varchar(11) NOT NULL,
+  
+  `staffID` varchar(11) NOT NULL,
   `Interior1` varchar(255) NOT NULL,
   `Interior2` varchar(255) NOT NULL,
   `Exterior1` varchar(255) NOT NULL,
   `Exterior2` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+-- ALTER TABLE cars
+-- ADD FOREIGN KEY(staffID)
+-- REFERENCES staff(id);
 
 --
 -- Dumping data for table `cars`

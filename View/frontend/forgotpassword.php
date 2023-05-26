@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) :
           $confirm_pwd = '';
           $msg_sucess = "Your new password has been updated successfully, you can now log in.";
         else :
-          $error = "Invalid Username.";
+          $error = "Could not find a user registered with that username.";
         endif;
       else :
         $error = "Old password new password same Please try again.";
