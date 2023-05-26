@@ -1,0 +1,672 @@
+Array
+(
+    [0] => Array
+        (
+            [id] => 13
+            [carname] => Chava Spence
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [body] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [fuel] => Diesel
+            [engine] => Incididunt praesenti
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [releasedate] => 2009-02-18
+            [seats] => 4
+            [modelyear] => 2012
+            [finaldrive] => Sed unde ad
+            [modelgrade] => Facilis
+            [specregion] => Rerum
+            [insurance] => 4000
+            [note] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [mainimage] => car (6).png
+            [status] => On Market
+            [company] => Tesla
+            [staffID] => 8
+            [Interior1] => interior-(1).png
+            [Interior2] => interior-(5).png
+            [Interior3] => interior-(3).png
+            [Interior4] => interior (2).jpg
+            [Exterior1] => car (4).png
+            [Exterior2] => exterior (5).jpg
+            [Exterior3] => exterior (3).jpg
+            [Exterior4] => exterior (1).jpg
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 13
+            [carname] => Chava Spence
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [body] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [fuel] => Diesel
+            [engine] => Incididunt praesenti
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [releasedate] => 2009-02-18
+            [seats] => 4
+            [modelyear] => 2012
+            [finaldrive] => Sed unde ad
+            [modelgrade] => Facilis
+            [specregion] => Rerum
+            [insurance] => 4000
+            [note] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [mainimage] => car (6).png
+            [status] => On Market
+            [company] => Tesla
+            [staffID] => 8
+            [Interior1] => interior-(1).png
+            [Interior2] => interior-(5).png
+            [Interior3] => interior-(3).png
+            [Interior4] => interior (2).jpg
+            [Exterior1] => car (4).png
+            [Exterior2] => exterior (5).jpg
+            [Exterior3] => exterior (3).jpg
+            [Exterior4] => exterior (1).jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 14
+            [carname] => Toyota
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Quia est expedita in Quia est expedita in
+            [body] => Aliquid
+            [fuel] => Petrrol
+            [engine] => Modi nisi culpa ver
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [releasedate] => 2023-04-27
+            [seats] => 4
+            [modelyear] => 2002
+            [finaldrive] => Qui quisquam suscipi
+            [modelgrade] => Illo laborum quo acc
+            [specregion] => Voluptatem Ut nostr
+            [insurance] => 2000
+            [note] => In quis pariatur La
+            [mainimage] => car (4).png
+            [status] => On Market
+            [company] => Toyota
+            [staffID] => 11
+            [Interior1] => exterior (2).jpg
+            [Interior2] => exterior (1).jpg
+            [Interior3] => interior (2).jpg
+            [Interior4] => image1.png
+            [Exterior1] => interior-(5).png
+            [Exterior2] => interior-(1).png
+            [Exterior3] => image8.png
+            [Exterior4] => exterior (6).jpg
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 13
+            [carname] => Chava Spence
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [body] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [fuel] => Diesel
+            [engine] => Incididunt praesenti
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [releasedate] => 2009-02-18
+            [seats] => 4
+            [modelyear] => 2012
+            [finaldrive] => Sed unde ad
+            [modelgrade] => Facilis
+            [specregion] => Rerum
+            [insurance] => 4000
+            [note] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [mainimage] => car (6).png
+            [status] => On Market
+            [company] => Tesla
+            [staffID] => 8
+            [Interior1] => interior-(1).png
+            [Interior2] => interior-(5).png
+            [Interior3] => interior-(3).png
+            [Interior4] => interior (2).jpg
+            [Exterior1] => car (4).png
+            [Exterior2] => exterior (5).jpg
+            [Exterior3] => exterior (3).jpg
+            [Exterior4] => exterior (1).jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 14
+            [carname] => Toyota
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Quia est expedita in Quia est expedita in
+            [body] => Aliquid
+            [fuel] => Petrrol
+            [engine] => Modi nisi culpa ver
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [releasedate] => 2023-04-27
+            [seats] => 4
+            [modelyear] => 2002
+            [finaldrive] => Qui quisquam suscipi
+            [modelgrade] => Illo laborum quo acc
+            [specregion] => Voluptatem Ut nostr
+            [insurance] => 2000
+            [note] => In quis pariatur La
+            [mainimage] => car (4).png
+            [status] => On Market
+            [company] => Toyota
+            [staffID] => 11
+            [Interior1] => exterior (2).jpg
+            [Interior2] => exterior (1).jpg
+            [Interior3] => interior (2).jpg
+            [Interior4] => image1.png
+            [Exterior1] => interior-(5).png
+            [Exterior2] => interior-(1).png
+            [Exterior3] => image8.png
+            [Exterior4] => exterior (6).jpg
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 13
+            [carname] => Chava Spence
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [body] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [fuel] => Diesel
+            [engine] => Incididunt praesenti
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [releasedate] => 2009-02-18
+            [seats] => 4
+            [modelyear] => 2012
+            [finaldrive] => Sed unde ad
+            [modelgrade] => Facilis
+            [specregion] => Rerum
+            [insurance] => 4000
+            [note] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [mainimage] => car (6).png
+            [status] => On Market
+            [company] => Tesla
+            [staffID] => 8
+            [Interior1] => interior-(1).png
+            [Interior2] => interior-(5).png
+            [Interior3] => interior-(3).png
+            [Interior4] => interior (2).jpg
+            [Exterior1] => car (4).png
+            [Exterior2] => exterior (5).jpg
+            [Exterior3] => exterior (3).jpg
+            [Exterior4] => exterior (1).jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 14
+            [carname] => Toyota
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Quia est expedita in Quia est expedita in
+            [body] => Aliquid
+            [fuel] => Petrrol
+            [engine] => Modi nisi culpa ver
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [releasedate] => 2023-04-27
+            [seats] => 4
+            [modelyear] => 2002
+            [finaldrive] => Qui quisquam suscipi
+            [modelgrade] => Illo laborum quo acc
+            [specregion] => Voluptatem Ut nostr
+            [insurance] => 2000
+            [note] => In quis pariatur La
+            [mainimage] => car (4).png
+            [status] => On Market
+            [company] => Toyota
+            [staffID] => 11
+            [Interior1] => exterior (2).jpg
+            [Interior2] => exterior (1).jpg
+            [Interior3] => interior (2).jpg
+            [Interior4] => image1.png
+            [Exterior1] => interior-(5).png
+            [Exterior2] => interior-(1).png
+            [Exterior3] => image8.png
+            [Exterior4] => exterior (6).jpg
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 13
+            [carname] => Chava Spence
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [body] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [fuel] => Diesel
+            [engine] => Incididunt praesenti
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [releasedate] => 2009-02-18
+            [seats] => 4
+            [modelyear] => 2012
+            [finaldrive] => Sed unde ad
+            [modelgrade] => Facilis
+            [specregion] => Rerum
+            [insurance] => 4000
+            [note] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [mainimage] => car (6).png
+            [status] => On Market
+            [company] => Tesla
+            [staffID] => 8
+            [Interior1] => interior-(1).png
+            [Interior2] => interior-(5).png
+            [Interior3] => interior-(3).png
+            [Interior4] => interior (2).jpg
+            [Exterior1] => car (4).png
+            [Exterior2] => exterior (5).jpg
+            [Exterior3] => exterior (3).jpg
+            [Exterior4] => exterior (1).jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 14
+            [carname] => Toyota
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Quia est expedita in Quia est expedita in
+            [body] => Aliquid
+            [fuel] => Petrrol
+            [engine] => Modi nisi culpa ver
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [releasedate] => 2023-04-27
+            [seats] => 4
+            [modelyear] => 2002
+            [finaldrive] => Qui quisquam suscipi
+            [modelgrade] => Illo laborum quo acc
+            [specregion] => Voluptatem Ut nostr
+            [insurance] => 2000
+            [note] => In quis pariatur La
+            [mainimage] => car (4).png
+            [status] => On Market
+            [company] => Toyota
+            [staffID] => 11
+            [Interior1] => exterior (2).jpg
+            [Interior2] => exterior (1).jpg
+            [Interior3] => interior (2).jpg
+            [Interior4] => image1.png
+            [Exterior1] => interior-(5).png
+            [Exterior2] => interior-(1).png
+            [Exterior3] => image8.png
+            [Exterior4] => exterior (6).jpg
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 13
+            [carname] => Chava Spence
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [body] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [fuel] => Diesel
+            [engine] => Incididunt praesenti
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [releasedate] => 2009-02-18
+            [seats] => 4
+            [modelyear] => 2012
+            [finaldrive] => Sed unde ad
+            [modelgrade] => Facilis
+            [specregion] => Rerum
+            [insurance] => 4000
+            [note] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [mainimage] => car (6).png
+            [status] => On Market
+            [company] => Tesla
+            [staffID] => 8
+            [Interior1] => interior-(1).png
+            [Interior2] => interior-(5).png
+            [Interior3] => interior-(3).png
+            [Interior4] => interior (2).jpg
+            [Exterior1] => car (4).png
+            [Exterior2] => exterior (5).jpg
+            [Exterior3] => exterior (3).jpg
+            [Exterior4] => exterior (1).jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 14
+            [carname] => Toyota
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Quia est expedita in Quia est expedita in
+            [body] => Aliquid
+            [fuel] => Petrrol
+            [engine] => Modi nisi culpa ver
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [releasedate] => 2023-04-27
+            [seats] => 4
+            [modelyear] => 2002
+            [finaldrive] => Qui quisquam suscipi
+            [modelgrade] => Illo laborum quo acc
+            [specregion] => Voluptatem Ut nostr
+            [insurance] => 2000
+            [note] => In quis pariatur La
+            [mainimage] => car (4).png
+            [status] => On Market
+            [company] => Toyota
+            [staffID] => 11
+            [Interior1] => exterior (2).jpg
+            [Interior2] => exterior (1).jpg
+            [Interior3] => interior (2).jpg
+            [Interior4] => image1.png
+            [Exterior1] => interior-(5).png
+            [Exterior2] => interior-(1).png
+            [Exterior3] => image8.png
+            [Exterior4] => exterior (6).jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 13
+            [carname] => Chava Spence
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [body] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [fuel] => Diesel
+            [engine] => Incididunt praesenti
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [releasedate] => 2009-02-18
+            [seats] => 4
+            [modelyear] => 2012
+            [finaldrive] => Sed unde ad
+            [modelgrade] => Facilis
+            [specregion] => Rerum
+            [insurance] => 4000
+            [note] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [mainimage] => car (6).png
+            [status] => On Market
+            [company] => Tesla
+            [staffID] => 8
+            [Interior1] => interior-(1).png
+            [Interior2] => interior-(5).png
+            [Interior3] => interior-(3).png
+            [Interior4] => interior (2).jpg
+            [Exterior1] => car (4).png
+            [Exterior2] => exterior (5).jpg
+            [Exterior3] => exterior (3).jpg
+            [Exterior4] => exterior (1).jpg
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 13
+            [carname] => Chava Spence
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [body] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [fuel] => Diesel
+            [engine] => Incididunt praesenti
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [releasedate] => 2009-02-18
+            [seats] => 4
+            [modelyear] => 2012
+            [finaldrive] => Sed unde ad
+            [modelgrade] => Facilis
+            [specregion] => Rerum
+            [insurance] => 4000
+            [note] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [mainimage] => car (6).png
+            [status] => On Market
+            [company] => Tesla
+            [staffID] => 8
+            [Interior1] => interior-(1).png
+            [Interior2] => interior-(5).png
+            [Interior3] => interior-(3).png
+            [Interior4] => interior (2).jpg
+            [Exterior1] => car (4).png
+            [Exterior2] => exterior (5).jpg
+            [Exterior3] => exterior (3).jpg
+            [Exterior4] => exterior (1).jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 14
+            [carname] => Toyota
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Quia est expedita in Quia est expedita in
+            [body] => Aliquid
+            [fuel] => Petrrol
+            [engine] => Modi nisi culpa ver
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [releasedate] => 2023-04-27
+            [seats] => 4
+            [modelyear] => 2002
+            [finaldrive] => Qui quisquam suscipi
+            [modelgrade] => Illo laborum quo acc
+            [specregion] => Voluptatem Ut nostr
+            [insurance] => 2000
+            [note] => In quis pariatur La
+            [mainimage] => car (4).png
+            [status] => On Market
+            [company] => Toyota
+            [staffID] => 11
+            [Interior1] => exterior (2).jpg
+            [Interior2] => exterior (1).jpg
+            [Interior3] => interior (2).jpg
+            [Interior4] => image1.png
+            [Exterior1] => interior-(5).png
+            [Exterior2] => interior-(1).png
+            [Exterior3] => image8.png
+            [Exterior4] => exterior (6).jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 13
+            [carname] => Chava Spence
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [body] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [fuel] => Diesel
+            [engine] => Incididunt praesenti
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [releasedate] => 2009-02-18
+            [seats] => 4
+            [modelyear] => 2012
+            [finaldrive] => Sed unde ad
+            [modelgrade] => Facilis
+            [specregion] => Rerum
+            [insurance] => 4000
+            [note] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [mainimage] => car (6).png
+            [status] => On Market
+            [company] => Tesla
+            [staffID] => 8
+            [Interior1] => interior-(1).png
+            [Interior2] => interior-(5).png
+            [Interior3] => interior-(3).png
+            [Interior4] => interior (2).jpg
+            [Exterior1] => car (4).png
+            [Exterior2] => exterior (5).jpg
+            [Exterior3] => exterior (3).jpg
+            [Exterior4] => exterior (1).jpg
+        )
+
+)
+Array
+(
+    [0] => Array
+        (
+            [id] => 13
+            [carname] => Chava Spence
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [body] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [fuel] => Diesel
+            [engine] => Incididunt praesenti
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [releasedate] => 2009-02-18
+            [seats] => 4
+            [modelyear] => 2012
+            [finaldrive] => Sed unde ad
+            [modelgrade] => Facilis
+            [specregion] => Rerum
+            [insurance] => 4000
+            [note] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [mainimage] => car (6).png
+            [status] => On Market
+            [company] => Tesla
+            [staffID] => 8
+            [Interior1] => interior-(1).png
+            [Interior2] => interior-(5).png
+            [Interior3] => interior-(3).png
+            [Interior4] => interior (2).jpg
+            [Exterior1] => car (4).png
+            [Exterior2] => exterior (5).jpg
+            [Exterior3] => exterior (3).jpg
+            [Exterior4] => exterior (1).jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 14
+            [carname] => Toyota
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Quia est expedita in Quia est expedita in
+            [body] => Aliquid
+            [fuel] => Petrrol
+            [engine] => Modi nisi culpa ver
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+            [releasedate] => 2023-04-27
+            [seats] => 4
+            [modelyear] => 2002
+            [finaldrive] => Qui quisquam suscipi
+            [modelgrade] => Illo laborum quo acc
+            [specregion] => Voluptatem Ut nostr
+            [insurance] => 2000
+            [note] => In quis pariatur La
+            [mainimage] => car (4).png
+            [status] => On Market
+            [company] => Toyota
+            [staffID] => 11
+            [Interior1] => exterior (2).jpg
+            [Interior2] => exterior (1).jpg
+            [Interior3] => interior (2).jpg
+            [Interior4] => image1.png
+            [Exterior1] => interior-(5).png
+            [Exterior2] => interior-(1).png
+            [Exterior3] => image8.png
+            [Exterior4] => exterior (6).jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 13
+            [carname] => Chava Spence
+            [price] => 13000
+            [location] => USA
+            [priceinclusives] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [body] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [fuel] => Diesel
+            [engine] => Incididunt praesenti
+            [bodystyle] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi
+            [performance] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [safety] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [technology] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [releasedate] => 2009-02-18
+            [seats] => 4
+            [modelyear] => 2012
+            [finaldrive] => Sed unde ad
+            [modelgrade] => Facilis
+            [specregion] => Rerum
+            [insurance] => 4000
+            [note] => Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+            [mainimage] => car (6).png
+            [status] => On Market
+            [company] => Tesla
+            [staffID] => 8
+            [Interior1] => interior-(1).png
+            [Interior2] => interior-(5).png
+            [Interior3] => interior-(3).png
+            [Interior4] => interior (2).jpg
+            [Exterior1] => car (4).png
+            [Exterior2] => exterior (5).jpg
+            [Exterior3] => exterior (3).jpg
+            [Exterior4] => exterior (1).jpg
+        )
+
+)
