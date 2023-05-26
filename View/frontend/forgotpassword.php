@@ -11,31 +11,19 @@ ob_start();
 
 <?php 
 
+
 if(isset($_POST['submit'])){
-
-    //  $userName = $_POST['userName'];
-     $loginEmail = $_POST['loginEmail'];
-    //  $loginPassword = $_POST['password'];
-
-    $sql = "SELECT * FROM clients WHERE  email='$loginEmail'";
-
-    $res = mysqli_query($conn,$sql);
- 
-       echo $count = mysqli_num_rows($res);
-        $row = mysqli_fetch_assoc($res);
-        if($count==1){
-            $_SESSION['username'] = $userName;
-            header('location:' .SITEURL. 'View/frontend/reset.php');
-            exit();
-        }
-
-        else{
-            $_SESSION['noClient'] = '<span class="fail" style="color: red;">Incorrect Credentials!</span>';
-            header('location:' .SITEURL. 'View/frontend/forgotpassword.php');
-            exit();
-        }
-    
+    $email = $_POST['loginEmail'];
+    $new_password = $_POST['new_password'];
+    $changeQuery = "UPDATE `clients` SET `password` = '$new_password' WHERE `email`='$email'";
+    if($changeQuery) {
+        header("Location: login.php");
+    }
 }
+else {
+header("Location: forgotpassword.php");
+}
+
 
 
 ?>
@@ -50,6 +38,9 @@ if(isset($_POST['submit'])){
     <form method="post" >
         <label for="email">Email:</label>
         <input type="email" name="loginEmail" id="email" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="new_password" id="password" required>
         <br>
         <input type="submit" value="Reset Password">
     </form>
