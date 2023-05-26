@@ -29,7 +29,6 @@ if (isset($_POST['submit'])) :
       $user_id  = $_SESSION['username'];
     }
     // $user_id = '1';
-    $old_pwd = $_POST['old_password'];
     $pwd = $_POST['password'];
     $c_pwd = $_POST['confirm_pwd'];
     if ($pwd == $c_pwd) :
@@ -103,11 +102,7 @@ endif;
                   <?php echo @$error; ?><?php echo @$msg_sucess; ?>
                 </div><br>
                 <form method="post" autocomplete="off" id="password_form">
-                <div class="singleField">
-
-                  <p>old password<br />
-                    <input type="password" name="old_password" />
-                  </p></div>
+             
                   <div class="singleField">
 
                   <p>New password<br />

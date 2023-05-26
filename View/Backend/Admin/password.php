@@ -22,24 +22,24 @@ include('./adminPartials/adminHeader.php');
 
 if (isset($_POST['submit'])) :
   extract($_POST);
-  if ($old_password != "" && $password != "" && $confirm_pwd != "") :
+  if ( $password != "" && $confirm_pwd != "") :
     if (isset($_GET['username']) && $_GET['username'] != "") {
       $user_id  = $_GET['username'];
     } else {
       $user_id  = $_SESSION['username'];
     }
     // $user_id = '1';
-    $old_pwd = $_POST['old_password'];
+    // $old_pwd = $_POST['old_password'];
     $pwd = $_POST['password'];
     $c_pwd = $_POST['confirm_pwd'];
     if ($pwd == $c_pwd) :
-      if ($pwd != $old_pwd) :
-        $sql = "SELECT * FROM `clients` WHERE `username`='$user_id' AND `password` ='$old_pwd'";
+      // if ($pwd != $old_pwd) :
+        $sql = "SELECT * FROM `clients` WHERE `username`='$user_id'";
         $db_check = $conn->query($sql);
         $count = mysqli_num_rows($db_check);
         if ($count == 1) :
           $fetch = $conn->query("UPDATE `clients` SET `password` = '$pwd' WHERE `username`='$user_id'");
-          $old_password = '';
+          // $old_password = '';
           $password = '';
           $confirm_pwd = '';
           $msg_sucess = "Your new password update successfully.";
@@ -55,7 +55,7 @@ if (isset($_POST['submit'])) :
   else :
     $error = "Please fill all the fields";
   endif;
-endif;
+// endif;
 ?>
 
 
@@ -103,11 +103,11 @@ endif;
                   <?php echo @$error; ?><?php echo @$msg_sucess; ?>
                 </div><br>
                 <form method="post" autocomplete="off" id="password_form">
-                <div class="singleField">
+                <!-- <div class="singleField">
 
                   <p>old password<br />
                     <input type="password" name="old_password" />
-                  </p></div>
+                  </p></div> -->
                   <div class="singleField">
 
                   <p>New password<br />
