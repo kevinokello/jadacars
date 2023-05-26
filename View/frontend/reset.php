@@ -18,27 +18,29 @@ include('./adminPartials/adminHeader.php');
 
             <div class="detailsSection">
                 <div class="allCars flex">
-<?php
+
+                <?php
 
 if (isset($_POST['submit'])) :
   extract($_POST);
-  if ($old_password != "" && $password != "" && $confirm_pwd != "") :
+  if ( $password != "" && $confirm_pwd != "") :
     if (isset($_GET['username']) && $_GET['username'] != "") {
       $user_id  = $_GET['username'];
     } else {
       $user_id  = $_SESSION['username'];
     }
     // $user_id = '1';
+    // $old_pwd = $_POST['old_password'];
     $pwd = $_POST['password'];
     $c_pwd = $_POST['confirm_pwd'];
     if ($pwd == $c_pwd) :
-      if ($pwd != $old_pwd) :
-        $sql = "SELECT * FROM `clients` WHERE `username`='$user_id' AND `password` ='$old_pwd'";
+      // if ($pwd != $old_pwd) :
+        $sql = "SELECT * FROM `clients` WHERE `username`='$user_id'";
         $db_check = $conn->query($sql);
         $count = mysqli_num_rows($db_check);
         if ($count == 1) :
           $fetch = $conn->query("UPDATE `clients` SET `password` = '$pwd' WHERE `username`='$user_id'");
-          $old_password = '';
+          // $old_password = '';
           $password = '';
           $confirm_pwd = '';
           $msg_sucess = "Your new password update successfully.";
@@ -54,7 +56,7 @@ if (isset($_POST['submit'])) :
   else :
     $error = "Please fill all the fields";
   endif;
-endif;
+// endif;
 ?>
 
 
@@ -83,7 +85,6 @@ endif;
     line-height: 14px;
   }
 </style>
-
 <body class="sb-nav-fixed">
 
   </div>
