@@ -52,11 +52,8 @@
                         $secondname = $row['secondname'];
                         $image = $row['image'];
                         $email = $row['email'];
-                        $nationality = $row['nationality'];
-                        $gender = $row['gender'];
-                        $dob = $row['dob'];
-                        $payment = $row['payment'];
-                        $insurance = $row['insurance'];
+                       
+                  
                         $username = $row['username'];
                     }
                 }

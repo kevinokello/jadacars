@@ -81,25 +81,16 @@
 
                 if($count > 0){
                     while($row = mysqli_fetch_assoc($res)){
-                    $id = $row['id'];
-                    $firstname = $row['firstname'];
-                    $secondname = $row['secondname'];
-                    $username    = $row['username'];
-                    $nationality = $row['nationality'];
-                    $phone = $row['phone'];
-                    $gender = $row['gender'];
-                    $language = $row['language'];
-                    $dob = $row['dob'];
-                    $email = $row['email'];
-                    $experience  = $row['experience'];
-                    $profilepic = $row['profilepic'];
-                    $coverpic = $row['coverpic'];
-                    $facebook = $row['facebook'];
-                    $twitter = $row['twitter'];
-                    $instagram = $row['instagram'];
-                    $linkedin = $row['linkedin'];
-                    $role = $row['role'];
-                    $response = $row['response'];
+                        $id = $row['id'];
+                        $carID = $row['carID'];
+                        $agentID = $row['agentID'];
+                        $firstname = $row['firstname'];
+                        $secondname = $row['secondname'];
+                        $image = $row['image'];
+                        $email = $row['email'];
+                       
+                  
+                        $username = $row['username'];
                     }
                 }
             }
